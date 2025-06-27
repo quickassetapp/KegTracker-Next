@@ -311,7 +311,12 @@ const Pricing14 = (props) => {
                     </div>
                   </div>
                 </div>
-                <button className="pricing14-button15 thq-button-filled thq-button-animated">
+                <a
+                  href="https://buy.stripe.com/dRm9AT5aQ1ed7w0doYgA801"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="pricing14-button15 thq-button-filled thq-button-animated"
+                >
                   <span className="thq-body-small">
                     {props.plan2Action ?? (
                       <Fragment>
@@ -325,7 +330,7 @@ const Pricing14 = (props) => {
                       </Fragment>
                     )}
                   </span>
-                </button>
+                </a>
               </div>
               <div className="pricing14-column3 thq-card">
                 <div className="pricing14-price14">
@@ -427,7 +432,12 @@ const Pricing14 = (props) => {
                     </div>
                   </div>
                 </div>
-                <button className="pricing14-button16 thq-button-filled thq-button-animated">
+                <a
+                  href="https://buy.stripe.com/5kQdR9ava3ml9E83OogA802"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="pricing14-button16 thq-button-filled thq-button-animated"
+                >
                   <span className="thq-body-small">
                     {props.plan3Action ?? (
                       <Fragment>
@@ -441,7 +451,7 @@ const Pricing14 = (props) => {
                       </Fragment>
                     )}
                   </span>
-                </button>
+                </a>
               </div>
             </div>
           )}
@@ -547,7 +557,12 @@ const Pricing14 = (props) => {
                     </div>
                   </div>
                 </div>
-                <button className="pricing14-button17 thq-button-outline thq-button-animated">
+                <a
+                  href="https://buy.stripe.com/3cI6oHdHmaON2bGckUgA803"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="pricing14-button17 thq-button-outline thq-button-animated"
+                >
                   <span className="thq-body-small">
                     {props.plan1Action1 ?? (
                       <Fragment>
@@ -561,7 +576,7 @@ const Pricing14 = (props) => {
                       </Fragment>
                     )}
                   </span>
-                </button>
+                </a>
               </div>
               <div className="pricing14-column5 thq-card">
                 <div className="pricing14-price18">
@@ -663,7 +678,12 @@ const Pricing14 = (props) => {
                     </div>
                   </div>
                 </div>
-                <button className="pricing14-button18 thq-button-filled thq-button-animated">
+                <a
+                  href="https://buy.stripe.com/8x2bJ1bze0a98A484EgA804"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="pricing14-button18 thq-button-filled thq-button-animated"
+                >
                   <span className="thq-body-small">
                     {props.plan2Action1 ?? (
                       <Fragment>
@@ -677,7 +697,7 @@ const Pricing14 = (props) => {
                       </Fragment>
                     )}
                   </span>
-                </button>
+                </a>
               </div>
               <div className="pricing14-column6 thq-card">
                 <div className="pricing14-price20">
@@ -779,7 +799,12 @@ const Pricing14 = (props) => {
                     </div>
                   </div>
                 </div>
-                <button className="pricing14-button19 thq-button-filled thq-button-animated">
+                <a
+                  href="https://buy.stripe.com/dRmeVd9r65ut6rW3OogA805"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="pricing14-button19 thq-button-filled thq-button-animated"
+                >
                   <span className="thq-body-small">
                     {props.plan3Action1 ?? (
                       <Fragment>
@@ -793,7 +818,7 @@ const Pricing14 = (props) => {
                       </Fragment>
                     )}
                   </span>
-                </button>
+                </a>
               </div>
             </div>
           )}

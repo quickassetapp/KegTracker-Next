@@ -109,8 +109,8 @@ const Navbar8 = (props) => {
             <div className="navbar8-nav">
               <div className="navbar8-top">
                 <img
-                  alt={props.logoAlt}
-                  src={props.logoSrc}
+                  alt="KegTracker Logo"
+                  src="/images/kegtracker-logo.png"
                   className="navbar8-logo"
                 />
                 <div data-thq="thq-close-menu" className="navbar8-close-menu">

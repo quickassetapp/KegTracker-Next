@@ -66,8 +66,6 @@ const Navbar8 = (props) => {
             <div className="navbar8-buttons1">
               <a
                 href={props.textUrl1}
-                target="_blank"
-                rel="noreferrer noopener"
                 className="navbar8-action11 thq-button-filled thq-button-animated"
               >
                 {props.text1 ?? (

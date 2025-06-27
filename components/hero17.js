@@ -38,25 +38,18 @@ const Hero17 = (props) => {
             </p>
           </div>
           <div className="hero17-actions">
-            <button className="thq-button-filled hero17-button">
-              <a
-                href={props.textUrl1}
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                {props.text1 ?? (
-                  <Fragment>
-                    <span className="hero17-text4">
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_czXigU'),
-                        }}
-                      ></span>
-                    </span>
-                  </Fragment>
-                )}
-              </a>
-            </button>
+            <a
+              className="thq-button-filled hero17-button"
+              href={props.textUrl1}
+            >
+              {props.text1 ?? (
+                <Fragment>
+                  <span className="hero17-text4">
+                    Start Your 7-Day Free Trial
+                  </span>
+                </Fragment>
+              )}
+            </a>
           </div>
         </div>
         <div className="hero17-container1">

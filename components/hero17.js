@@ -190,11 +190,11 @@ const Hero17 = (props) => {
             .hero17-image2,
             .hero17-image3,
             .hero17-image4 {
-              width: 100% !important;
-              max-width: 100%;
-              height: auto;
-              object-fit: contain;
+              width: 280px;
+              height: 180px;
+              object-fit: cover;
               display: block;
+              border-radius: var(--dl-layout-radius-inputradius);
             }
           }
         `}

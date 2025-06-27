@@ -42,12 +42,7 @@ const Footer4 = (props) => {
                   )}
                 </a>
               </Link>
-              <a
-                href={props.textUrl}
-                target="_blank"
-                rel="noreferrer noopener"
-                className="footer4-link3"
-              >
+                <a href="https://kegtracker.io/#Contact10" className="footer4-link3">
                 {props.text ?? (
                   <Fragment>
                     <span className="footer4-text4">

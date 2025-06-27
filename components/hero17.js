@@ -181,10 +181,10 @@ const Hero17 = (props) => {
           @media (max-width: 479px) {
             .hero17-container2 {
               display: grid;
-              grid-template-columns: repeat(2, 1fr);
+              grid-template-columns: 50% 50%;
               gap: 12px;
               width: 100%;
-              padding: 0 16px;
+              padding: 0 8px;
               justify-items: center;
             }
           
@@ -193,8 +193,8 @@ const Hero17 = (props) => {
             .hero17-image3,
             .hero17-image4 {
               width: 100%;
-              max-width: 140px;
               height: 140px;
+              max-width: 120px;
               object-fit: cover;
               border-radius: var(--dl-layout-radius-inputradius);
               box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);

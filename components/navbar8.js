@@ -110,7 +110,7 @@ const Navbar8 = (props) => {
               <div className="navbar8-top">
                 <img
                   alt="KegTracker Logo"
-                  src="/images/kegtracker-logo.png"
+                  src="/public/normal barra-200h.png"
                   className="navbar8-logo"
                 />
                 <div data-thq="thq-close-menu" className="navbar8-close-menu">

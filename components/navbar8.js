@@ -120,9 +120,9 @@ const Navbar8 = (props) => {
                 </div>
               </div>
               <nav className="navbar8-links2">
-                <a href="#features" className="navbar8-link14 thq-link thq-body-small">Features</a>
-                <a href="#documentation" className="thq-link thq-body-small">Documentation</a>
-                <a href="#contact" className="navbar8-link3 thq-link thq-body-small">Contact Us</a>
+                <a href="#Features24" className="navbar8-link14 thq-link thq-body-small">Features</a>
+                <a href="/docs" className="thq-link thq-body-small">Documentation</a>
+                <a href="#Contact10" className="navbar8-link3 thq-link thq-body-small">Contact Us</a>
               </nav>
               <div className="navbar8-buttons2">
                 <a

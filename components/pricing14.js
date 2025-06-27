@@ -190,7 +190,12 @@ const Pricing14 = (props) => {
                     </div>
                   </div>
                 </div>
-                <button className="pricing14-button14 thq-button-outline thq-button-animated">
+                <a
+                  href="https://buy.stripe.com/fZufZhgTyf5303ygBagA800"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="pricing14-button14 thq-button-outline thq-button-animated"
+                >
                   <span className="thq-body-small">
                     {props.plan1Action ?? (
                       <Fragment>
@@ -204,7 +209,7 @@ const Pricing14 = (props) => {
                       </Fragment>
                     )}
                   </span>
-                </button>
+                </a>
               </div>
               <div className="pricing14-column2 thq-card">
                 <div className="pricing14-price12">

@@ -64,44 +64,42 @@ const Navbar8 = (props) => {
               </a>
             </nav>
             <div className="navbar8-buttons1">
-              <button className="navbar8-action11 thq-button-filled thq-button-animated">
-                <a
-                  href={props.textUrl1}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  {props.text1 ?? (
-                    <Fragment>
-                      <span className="navbar8-text22">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_xhQ00s'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
-                </a>
-              </button>
-              <button className="navbar8-action21 thq-button-outline thq-button-animated">
-                <a
-                  href={props.textUrl}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  {props.text ?? (
-                    <Fragment>
-                      <span className="navbar8-text14">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_li7iod'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
-                </a>
-              </button>
+              <a
+                href={props.textUrl1}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="navbar8-action11 thq-button-filled thq-button-animated"
+              >
+                {props.text1 ?? (
+                  <Fragment>
+                    <span className="navbar8-text22">
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: translate.raw('text_xhQ00s'),
+                        }}
+                      ></span>
+                    </span>
+                  </Fragment>
+                )}
+              </a>
+             <a
+              href={props.textUrl}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="navbar8-action21 thq-button-outline thq-button-animated"
+            >
+              {props.text ?? (
+                <Fragment>
+                  <span className="navbar8-text14">
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: translate.raw('text_li7iod'),
+                      }}
+                    ></span>
+                  </span>
+                </Fragment>
+              )}
+            </a>
             </div>
           </div>
           <div data-thq="thq-burger-menu" className="navbar8-burger-menu">

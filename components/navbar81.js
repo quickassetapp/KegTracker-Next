@@ -20,47 +20,14 @@ const Navbar81 = (props) => {
                   className="navbar81-image"
                 />
               </a>
-              <a
-                href={props.link1Url}
-                className="navbar81-link11 thq-link thq-body-small"
-              >
-                {props.link1 ?? (
-                  <Fragment>
-                    <span className="navbar81-text27">
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_mv8v6-'),
-                        }}
-                      ></span>
-                    </span>
-                  </Fragment>
-                )}
+              <a href="https://kegtracker.io/#Features24" className="navbar81-link11 thq-link thq-body-small">
+                Features
               </a>
-              <a href={props.link2Url} className="thq-link thq-body-small">
-                {props.link2 ?? (
-                  <Fragment>
-                    <span className="navbar81-text16">
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_L9ovD3'),
-                        }}
-                      ></span>
-                    </span>
-                  </Fragment>
-                )}
+              <a href="/docs" className="thq-link thq-body-small">
+                Documentation
               </a>
-              <a href={props.link2Url1} className="thq-link thq-body-small">
-                {props.link21 ?? (
-                  <Fragment>
-                    <span className="navbar81-text24">
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_iXCe6w'),
-                        }}
-                      ></span>
-                    </span>
-                  </Fragment>
-                )}
+              <a href="https://kegtracker.io/#Contact10" className="thq-link thq-body-small">
+                Contact Us
               </a>
             </nav>
             <div className="navbar81-buttons1">
@@ -93,11 +60,9 @@ const Navbar81 = (props) => {
           <div data-thq="thq-mobile-menu" className="navbar81-mobile-menu">
             <div className="navbar81-nav">
               <div className="navbar81-top">
-                <img
-                  alt={props.logoAlt}
-                  src={props.logoSrc}
-                  className="navbar81-logo"
-                />
+                <a href="https://kegtracker.io/">
+                  <img alt="KegTracker Logo" src="/normal barra-200h.png" className="navbar81-logo" />
+                </a>
                 <div data-thq="thq-close-menu" className="navbar81-close-menu">
                   <svg viewBox="0 0 1024 1024" className="navbar81-icon12">
                     <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
@@ -105,50 +70,14 @@ const Navbar81 = (props) => {
                 </div>
               </div>
               <nav className="navbar81-links2">
-                <a
-                  href={props.link1Url}
-                  className="navbar81-link13 thq-link thq-body-small"
-                >
-                  {props.link1 ?? (
-                    <Fragment>
-                      <span className="navbar81-text27">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_mv8v6-'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
+                <a href="https://kegtracker.io/#Features24" className="navbar81-link13 thq-link thq-body-small">
+                  Features
                 </a>
-                <a href={props.link2Url} className="thq-link thq-body-small">
-                  {props.link2 ?? (
-                    <Fragment>
-                      <span className="navbar81-text16">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_L9ovD3'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
+                <a href="/docs" className="thq-link thq-body-small">
+                  Documentation
                 </a>
-                <a
-                  href={props.link3Url}
-                  className="navbar81-link3 thq-link thq-body-small"
-                >
-                  {props.link3 ?? (
-                    <Fragment>
-                      <span className="navbar81-text18">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_1GXym-'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
+                <a href="https://kegtracker.io/#Contact10" className="thq-link thq-body-small">
+                  Contact Us
                 </a>
                 <div className="navbar81-link4-accordion">
                   <div
@@ -346,36 +275,12 @@ const Navbar81 = (props) => {
                 </div>
               </nav>
               <div className="navbar81-buttons2">
-                <button className="thq-button-filled">
-                  <span>
-                    {props.action1 ?? (
-                      <Fragment>
-                        <span className="navbar81-text13">
-                          <span
-                            dangerouslySetInnerHTML={{
-                              __html: translate.raw('text_BjF5Fo'),
-                            }}
-                          ></span>
-                        </span>
-                      </Fragment>
-                    )}
-                  </span>
-                </button>
-                <button className="thq-button-outline">
-                  <span>
-                    {props.action2 ?? (
-                      <Fragment>
-                        <span className="navbar81-text14">
-                          <span
-                            dangerouslySetInnerHTML={{
-                              __html: translate.raw('text_H5V3na'),
-                            }}
-                          ></span>
-                        </span>
-                      </Fragment>
-                    )}
-                  </span>
-                </button>
+                <a href="https://kegtracker.io/#Features24">
+                  <button className="thq-button-filled">Get Started</button>
+                </a>
+                <a href="https://app.kegtracker.io">
+                  <button className="thq-button-outline">Login</button>
+                </a>
               </div>
             </div>
             <div className="navbar81-icon-group">

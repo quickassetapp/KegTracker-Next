@@ -180,20 +180,22 @@ const Hero17 = (props) => {
           }
           @media (max-width: 479px) {
             .hero17-container2 {
-              flex-direction: column;
-              align-items: center;
+              display: grid;
+              grid-template-columns: 1fr 1fr;
               gap: var(--dl-space-space-unit);
               width: 100%;
+              padding: 0 var(--dl-space-space-unit);
+              justify-items: center;
             }
           
             .hero17-image1,
             .hero17-image2,
             .hero17-image3,
             .hero17-image4 {
-              width: 280px;
+              width: 100%;
+              max-width: 160px;
               height: 180px;
               object-fit: cover;
-              display: block;
               border-radius: var(--dl-layout-radius-inputradius);
             }
           }

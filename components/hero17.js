@@ -177,12 +177,18 @@ const Hero17 = (props) => {
             display: inline-block;
           }
           @media (max-width: 479px) {
-            .hero17-actions {
-              width: 100%;
+            .hero17-container2 {
               flex-direction: column;
+              align-items: center;
+              gap: var(--dl-space-space-unit);
             }
-            .hero17-button {
+            .hero17-image1,
+            .hero17-image2,
+            .hero17-image3,
+            .hero17-image4 {
               width: 100%;
+              max-width: 100%;
+              height: auto;
             }
           }
         `}

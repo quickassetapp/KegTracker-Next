@@ -361,36 +361,38 @@ const Navbar8 = (props) => {
                 </div>
               </nav>
               <div className="navbar8-buttons2">
-                <button className="thq-button-filled">
-                  <span>
-                    {props.action1 ?? (
-                      <Fragment>
-                        <span className="navbar8-text26">
-                          <span
-                            dangerouslySetInnerHTML={{
-                              __html: translate.raw('text_2xP3a4'),
-                            }}
-                          ></span>
-                        </span>
-                      </Fragment>
-                    )}
-                  </span>
-                </button>
-                <button className="thq-button-outline">
-                  <span>
-                    {props.action2 ?? (
-                      <Fragment>
-                        <span className="navbar8-text20">
-                          <span
-                            dangerouslySetInnerHTML={{
-                              __html: translate.raw('text_LoxFG2'),
-                            }}
-                          ></span>
-                        </span>
-                      </Fragment>
-                    )}
-                  </span>
-                </button>
+                <a
+                  href={props.textUrl1}
+                  className="navbar8-action11 thq-button-filled thq-button-animated"
+                >
+                  {props.text1 ?? (
+                    <Fragment>
+                      <span className="navbar8-text26">
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: translate.raw('text_2xP3a4'),
+                          }}
+                        ></span>
+                      </span>
+                    </Fragment>
+                  )}
+                </a>
+                <a
+                  href={props.textUrl}
+                  className="navbar8-action21 thq-button-outline thq-button-animated"
+                >
+                  {props.text ?? (
+                    <Fragment>
+                      <span className="navbar8-text20">
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: translate.raw('text_LoxFG2'),
+                          }}
+                        ></span>
+                      </span>
+                    </Fragment>
+                  )}
+                </a>
               </div>
             </div>
             <div className="navbar8-icon-group">

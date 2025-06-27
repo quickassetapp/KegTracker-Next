@@ -82,13 +82,15 @@ const Hero17 = (props) => {
           .hero17-header78 {
             gap: var(--dl-layout-space-threeunits);
             width: 100%;
-            height: 787px;
+            min-height: 787px;
             display: flex;
             overflow: hidden;
             position: relative;
             align-items: center;
             flex-shrink: 0;
             flex-direction: column;
+            padding-bottom: 5rem; /* espacio para que Features24 no se monte encima */
+            z-index: 1;
           }
           .hero17-column {
             gap: var(--dl-layout-space-oneandhalfunits);
@@ -181,14 +183,18 @@ const Hero17 = (props) => {
               flex-direction: column;
               align-items: center;
               gap: var(--dl-space-space-unit);
+              width: 100%;
             }
+          
             .hero17-image1,
             .hero17-image2,
             .hero17-image3,
             .hero17-image4 {
-              width: 100%;
+              width: 100% !important;
               max-width: 100%;
               height: auto;
+              object-fit: contain;
+              display: block;
             }
           }
         `}

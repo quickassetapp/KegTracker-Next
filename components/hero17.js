@@ -181,10 +181,10 @@ const Hero17 = (props) => {
           @media (max-width: 479px) {
             .hero17-container2 {
               display: grid;
-              grid-template-columns: 1fr 1fr;
-              gap: var(--dl-space-space-unit);
+              grid-template-columns: repeat(2, 1fr);
+              gap: 12px;
               width: 100%;
-              padding: 0 var(--dl-space-space-unit);
+              padding: 0 16px;
               justify-items: center;
             }
           
@@ -193,10 +193,11 @@ const Hero17 = (props) => {
             .hero17-image3,
             .hero17-image4 {
               width: 100%;
-              max-width: 160px;
-              height: 180px;
+              max-width: 140px;
+              height: 140px;
               object-fit: cover;
               border-radius: var(--dl-layout-radius-inputradius);
+              box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
             }
           }
         `}

@@ -13,15 +13,18 @@ const Docs = (props) => {
     <>
       <div className="docs-container">
         <Head>
-          <!-- Google tag (gtag.js) -->
+          {/* Google tag (gtag.js) */}
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-F00RTQTPR6"></script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-          
-            gtag('config', 'G-F00RTQTPR6');
-          </script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-F00RTQTPR6');
+              `,
+            }}
+          />
           <title>
             Docs - KegTracker – QR-Based Keg Management for Breweries
           </title>
